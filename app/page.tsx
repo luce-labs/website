@@ -10,7 +10,7 @@ export default function Home() {
             <p className="text-4xl sm:text-6xl lg:text-8xl leading-none -mt-1 sm:-mt-2 lg:-mt-3">industries</p>
           </div>
           <p className="text-base sm:text-lg">
-            build transformative technologies that empower businesses to grow and give hope to everyone whose future depends on bold ideas
+            build transformative technologies that empower businesses and give hope to everyone whose future depends on bold ideas
           </p>
         </div>
       </main>
