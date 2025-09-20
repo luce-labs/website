@@ -2,9 +2,9 @@ import { TestTube2, Brain, Globe } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="font-mono min-h-screen grid grid-rows-[auto_1fr_auto] items-start justify-items-stretch p-4 sm:p-8 lg:p-12 gap-8 sm:gap-12">
-      <main className="row-start-2 w-full max-w-6xl my-auto flex flex-col items-start justify-center gap-6 sm:gap-8">
-        <div className="w-full flex flex-col gap-4 sm:gap-1">
+    <div className="font-mono h-screen grid grid-rows-[auto_1fr_auto] items-start justify-items-stretch p-4 sm:p-8 lg:p-12 gap-4 sm:gap-8 lg:gap-12">
+      <main className="row-start-2 w-full max-w-6xl my-auto flex flex-col items-start justify-center gap-4 sm:gap-6 lg:gap-8">
+        <div className="w-full flex flex-col gap-2 sm:gap-1">
           <div className="flex flex-col">
             <p className="text-4xl sm:text-6xl lg:text-8xl leading-none">luce</p>
             <p className="text-4xl sm:text-6xl lg:text-8xl leading-none -mt-1 sm:-mt-2 lg:-mt-3">industries</p>
