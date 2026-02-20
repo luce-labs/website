@@ -9,7 +9,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "luce industries",
+  title: "lucelabs",
   description: "build transformative technologies that empower businesses and give hope to everyone whose future depends on bold ideas",
 };
 

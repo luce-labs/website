@@ -42,19 +42,6 @@ body {
   padding-inline: var(--container-pad);
 }
 
-/* Responsive grid utility */
-.grid {
-  display: grid;
-  gap: var(--space-3);
-  grid-template-columns: 1fr;
-}
-
-@media (min-width: 640px) {
-  .grid-sm-2 { grid-template-columns: repeat(2, 1fr); }
-}
-@media (min-width: 1024px) {
-  .grid-lg-3 { grid-template-columns: repeat(3, 1fr); }
-}
 
 /* Make media scale */
 img, video { max-width: 100%; height: auto; display: block; }
