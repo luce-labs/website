@@ -43,5 +43,14 @@ body {
 }
 
 
+/* Active nav dot animation */
+@keyframes dot-slide {
+  0%   { left: 0; }
+  100% { left: calc(100% - 3px); }
+}
+.dot-slide {
+  animation: dot-slide 1s ease-in-out infinite alternate;
+}
+
 /* Make media scale */
 img, video { max-width: 100%; height: auto; display: block; }
