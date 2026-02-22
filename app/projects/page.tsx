@@ -33,7 +33,7 @@ export default function Projects() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-12">
           {/* LuceHR */}
           <div className="flex flex-col gap-5">
-            <div className="w-full aspect-video bg-neutral-100 dark:bg-neutral-900 flex items-center justify-center text-neutral-400 dark:text-neutral-600">
+            <div className="w-full aspect-video bg-neutral-100 flex items-center justify-center text-neutral-400">
               <HugeiconsIcon icon={UserGroupIcon} size={40} />
             </div>
             <div className="flex flex-col gap-3">
@@ -60,7 +60,7 @@ export default function Projects() {
 
           {/* ProcusMeet */}
           <div className="flex flex-col gap-5">
-            <div className="w-full aspect-video bg-neutral-100 dark:bg-neutral-900 flex items-center justify-center text-neutral-400 dark:text-neutral-600">
+            <div className="w-full aspect-video bg-neutral-100 flex items-center justify-center text-neutral-400">
               <HugeiconsIcon icon={Video01Icon} size={40} />
             </div>
             <div className="flex flex-col gap-3">

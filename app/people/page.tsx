@@ -58,7 +58,7 @@ export default function People() {
 				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 w-3/5 sm:w-full mx-auto sm:mx-0">
 					{team.map((member) => (
 						<div key={member.name} className="flex flex-col gap-3">
-							<div className="w-full aspect-square bg-neutral-100 dark:bg-neutral-900 flex items-center justify-center text-neutral-400 dark:text-neutral-600">
+							<div className="w-full aspect-square bg-neutral-100 flex items-center justify-center text-neutral-400">
 								<HugeiconsIcon icon={UserIcon} size={40} />
 							</div>
 							<div className="flex flex-col gap-1">
