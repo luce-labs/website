@@ -73,10 +73,15 @@ export default function Projects() {
               <p className="text-xs sm:text-sm opacity-60 leading-relaxed">
                 expert-client counselling that actually scales. Get matched to the right expert, book a session, and get things moving — like clarity.fm, but built for modern teams and workflows.
               </p>
-              <span className="flex items-center gap-1 text-xs sm:text-sm opacity-40 w-fit">
-                coming soon
-                <HugeiconsIcon icon={RocketIcon} size={14} />
-              </span>
+              <a
+                href="https://procusmeet.lucelabs.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1 text-xs sm:text-sm hover:underline underline-offset-4 w-fit"
+              >
+                visit procusmeet.lucelabs.org
+                <HugeiconsIcon icon={ArrowRight01Icon} size={14} />
+              </a>
             </div>
           </div>
         </div>
