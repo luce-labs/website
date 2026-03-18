@@ -15,8 +15,14 @@ export function Nav() {
 
   return (
     <nav className="font-mono w-full flex items-center justify-between text-xs sm:text-sm">
-      <Link href="/" className="hover:underline underline-offset-4">
-        lucelabs
+      <Link href="/" className="hover:underline underline-offset-4 inline-flex items-center">
+        <img
+          src="/lucelabslogonew1.svg"
+          alt="lucelabs"
+          width={45}
+          height={12}
+          className="inline-block align-middle"
+        />
       </Link>
       <div className="flex items-center gap-4 sm:gap-6">
         {links.map(({ href, label }) => {

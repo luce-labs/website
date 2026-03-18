@@ -7,11 +7,17 @@ export default function Home() {
 			<main className="row-start-2 w-full max-w-6xl my-auto flex flex-col items-start justify-center gap-4 sm:gap-6 lg:gap-8">
 				<div className="w-full flex flex-col gap-2 sm:gap-1">
 					<div className="flex flex-col">
-						<p className="text-4xl sm:text-6xl lg:text-8xl leading-none mb-1">
-							lucelabs
-						</p>
+						<div className="leading-none -mb-15">
+							<img
+								src="/lucelabslogonew.svg"
+								alt="lucelabs"
+								width={500}
+								height={14}
+								className="inline-block align-middle"
+							/>
+						</div>
 					</div>
-					<p className="text-xs sm:text-sm sm:w-4/6">
+					<p className="pl-2 text-xs sm:text-sm sm:w-4/6">
 						building transformative technologies that empower businesses and
 						give hope to everyone whose future depends on bold ideas
 					</p>
