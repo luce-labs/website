@@ -41,6 +41,37 @@ const values = [
   },
 ];
 
+const chopsatiRoles = [
+  {
+    title: "founding engineer",
+    type: "engineering · sunyani / remote · contract",
+    description:
+      "build the tech behind chopsati: ordering, payments, restaurant systems and rider logistics.",
+    href: "https://chopsati.com/careers/founding-engineer",
+  },
+  {
+    title: "operations lead",
+    type: "operations · sunyani · contract",
+    description:
+      "run daily deliveries around STU and UENR, and build the system behind them.",
+    href: "https://chopsati.com/careers/operations-lead",
+  },
+  {
+    title: "student ambassador",
+    type: "campus · sunyani (STU / UENR) · contract",
+    description:
+      "bring chopsati to campus and build our student community from day one.",
+    href: "https://chopsati.com/careers/student-ambassador",
+  },
+  {
+    title: "accountant",
+    type: "finance · sunyani / remote · contract",
+    description:
+      "keep our money records correct and help build simple financial systems.",
+    href: "https://chopsati.com/careers/accountant",
+  },
+];
+
 const openRoles = [
   {
     title: "software engineer",
@@ -111,6 +142,46 @@ export default function Careers() {
               </div>
             ))}
           </div>
+        </div>
+
+        <div className="flex flex-col gap-6">
+          <p className="text-xs opacity-40 uppercase tracking-widest">
+            chopsati — open roles
+          </p>
+          <div className="flex flex-col divide-y divide-current/10">
+            {chopsatiRoles.map((role) => (
+              <div
+                key={role.title}
+                className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 py-5 first:pt-0"
+              >
+                <div className="flex flex-col gap-1">
+                  <span className="text-sm sm:text-base">{role.title}</span>
+                  <span className="text-xs opacity-40">{role.type}</span>
+                  <p className="text-xs sm:text-sm opacity-60 leading-relaxed max-w-md mt-1">
+                    {role.description}
+                  </p>
+                </div>
+                <a
+                  href={role.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-xs sm:text-sm hover:underline underline-offset-4 shrink-0"
+                >
+                  view & apply
+                  <HugeiconsIcon icon={ArrowRight01Icon} size={14} />
+                </a>
+              </div>
+            ))}
+          </div>
+          <a
+            href="https://chopsati.com/careers"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 text-xs sm:text-sm opacity-60 hover:opacity-100 hover:underline underline-offset-4 w-fit"
+          >
+            all roles on chopsati.com/careers
+            <HugeiconsIcon icon={ArrowRight01Icon} size={14} />
+          </a>
         </div>
       </main>
 

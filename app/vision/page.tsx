@@ -18,7 +18,7 @@ const beliefs = [
     icon: Target01Icon,
     title: "focus beats breadth",
     description:
-      "companies do their best work when they can focus on what they're great at. we build the operational tools so they don't have to.",
+      "people and businesses do their best work when they can focus on what matters. we build the tools that clear what's in the way.",
   },
   {
     icon: RocketIcon,
@@ -53,10 +53,10 @@ export default function Vision() {
             exist.
           </h1>
           <p className="text-sm sm:text-base leading-relaxed opacity-70">
-            too many companies get slowed down by the operations that are supposed to support them — HR overhead, communication gaps, admin that never ends. we think that's a solvable problem.
+            too many lives and businesses get slowed down by problems that are actually solvable — messy operations, communication gaps, admin that never ends, everyday friction that shouldn't exist. we think that's worth fixing.
           </p>
           <p className="text-sm sm:text-base leading-relaxed opacity-70 mt-4">
-            at lucelabs, we build smart, focused software that handles the hard operational stuff so your team can focus on what actually matters. we're not trying to do everything — just the things that slow great teams down.
+            at lucelabs, we build smart, focused software that solves real problems in lives and businesses — handling the hard stuff so people can focus on what actually matters. we&apos;re not trying to do everything — just the things that hold great people and teams back.
           </p>
         </div>
 

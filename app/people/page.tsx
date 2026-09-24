@@ -25,18 +25,6 @@ const team = [
 		// bio: "brings the technical depth and the strategic thinking. obsessed with building systems that scale without breaking a sweat.",
 		github: "gideonadeti",
 	},
-	{
-		name: "richlove mawumenyo",
-		role: "operations",
-		// bio: "the kind of person you want in the room when things get complex. thoughtful, precise, and always shipping.",
-		github: null,
-	},
-	{
-		name: "kelvin amoaba",
-		role: "engineer",
-		// bio: "brings energy and craft to everything they touch. great at turning rough ideas into clean, working solutions.",
-		github: "AmoabaKelvin",
-	},
 ];
 
 export default function People() {
@@ -50,8 +38,7 @@ export default function People() {
 						the team.
 					</h1>
 					<p className="mt-3 text-xs sm:text-sm opacity-60 max-w-md leading-relaxed">
-						small, focused, and moving fast. four people building tools
-						they&apos;d want to use themselves.
+						small, focused, and moving fast.
 					</p>
 				</div>
 
