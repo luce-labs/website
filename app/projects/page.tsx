@@ -5,7 +5,7 @@ import {
   UserGroupIcon,
   Video01Icon,
   ArrowRight01Icon,
-  Restaurant01Icon,
+  TruckDeliveryIcon,
 } from "@hugeicons/core-free-icons";
 
 export const metadata: Metadata = {
@@ -34,17 +34,17 @@ export default function Projects() {
           {/* ChopSati */}
           <div className="flex flex-col gap-5">
             <div className="w-full aspect-video bg-neutral-100 flex items-center justify-center text-neutral-400">
-              <HugeiconsIcon icon={Restaurant01Icon} size={40} />
+              <HugeiconsIcon icon={TruckDeliveryIcon} size={40} />
             </div>
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-3">
                 <span className="text-xl sm:text-2xl">chopSati</span>
                 <span className="text-xs opacity-40 border border-current px-2 py-0.5">
-                  food · delivery
+                  tech · logistics
                 </span>
               </div>
               <p className="text-xs sm:text-sm opacity-60 leading-relaxed">
-                food delivery and restaurant tools for African cities, starting in Sunyani. QR ordering, MoMo-first payments, kitchen display, and rider logistics — one system from order to delivery.
+                tech logistics infrastructure for Ghana, starting in Sunyani. currently tackling food delivery and parcel movement — with QR ordering, MoMo-first payments, merchant tools, and rider logistics in one system from pickup to delivery.
               </p>
               <a
                 href="https://chopsati.com"

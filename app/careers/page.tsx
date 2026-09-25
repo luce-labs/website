@@ -46,7 +46,7 @@ const chopsatiRoles = [
     title: "founding engineer",
     type: "engineering · sunyani / remote · contract",
     description:
-      "build the tech behind chopsati: ordering, payments, restaurant systems and rider logistics.",
+      "build the tech behind chopsati: ordering, payments, merchant tools and rider logistics.",
     href: "https://chopsati.com/careers/founding-engineer",
   },
   {

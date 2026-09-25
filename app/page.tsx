@@ -26,12 +26,12 @@ export default function Home() {
 			<footer className="row-start-3 w-full flex items-center justify-between text-xs opacity-40">
 				<span>© 2025 lucelabs</span>
 				<a
-					href="https://lucehr.com"
+					href="https://chopsati.com"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="hover:opacity-100 hover:underline underline-offset-4"
 				>
-					lucehr.com →
+					chopsati.com →
 				</a>
 			</footer>
 		</div>
