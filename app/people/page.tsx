@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const team = [
 	{
 		name: "kekeli",
-		role: "creator & ceo",
+		role: "creator",
 		// bio: "shapes the vision and keeps everything moving. the kind of person who sees the full picture and makes sure everyone's building toward it.",
 		github: "db-keli",
 	},
@@ -24,6 +24,11 @@ const team = [
 		role: "engineer",
 		// bio: "brings the technical depth and the strategic thinking. obsessed with building systems that scale without breaking a sweat.",
 		github: "gideonadeti",
+	},
+	{
+		name: "jesse",
+		role: "engineer",
+		github: "jessegrantgrantson",
 	},
 ];
 
